@@ -13,8 +13,7 @@ Turns on LED 4 (the blue LED).
 
 ###01.LEDs
 
-__Blink__ 
-  
+__Blink__  
 Replicates Arduino's Blink sketch exactly (uses .on() and .off() and loops) 
 
 __BlinkWithoutDelay__  
@@ -31,7 +30,7 @@ Similar to Arduino's Fade sketch
 __SimpleButton__  
 Pull down button that toggles an LED
 
-__Potentiometer__
+__Potentiometer__  
 Simple analog input that controls an LED's intensity
 
 
