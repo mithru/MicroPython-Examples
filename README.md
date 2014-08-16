@@ -34,3 +34,8 @@ __Potentiometer__
 Simple analog input that controls an LED's intensity
 
 
+====================
+
+Contributions include code from:  
+[Mithru Vigneshwara](https://github.com/mithru/MicroPython-Examples/)  
+[Dave Hylands](https://github.com/dhylands/upy-examples/)
