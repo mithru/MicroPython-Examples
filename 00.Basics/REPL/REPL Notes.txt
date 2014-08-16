@@ -1,0 +1,51 @@
+NOTES FOR REPL (READ EVAL PRINT LOOP)
+
+- Easiest way to test code and run commands on the pyboard
+- Can be used in addition to the main.py script
+- Need to be connected to pyboard's USB serial (instructions below)
+
+-----------------------------
+
+Mac OS X
+
+1. Open Terminal
+2. Type in the following and hit enter:
+	screen /dev/tty.usbmodem*
+
+-----------------------------	
+
+Windows:
+
+1. Make sure the pyboard driver('pybcdc.inf' which is visible in the same directory as 'main.py' and 'boot.py') is installed.
+2. Access the Device Manager (Start > Control Panel > Device Manager) and click on 'Ports' to check the port to which the pyboard is connected (eg. COM8).
+3. Install PuTTY < http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html >
+4. Run putty.exe
+5. In the PuTTY Configuration window, click on 'Session' on the left pane.
+6. Under 'Connection type', select 'Serial'
+7. Change the 'Serial line' field to the port on which your pyboard is connected (eg. COM8)
+8. Change 'Speed' to 115200
+9. Click Open
+
+-----------------------------
+
+Linux:
+1. Open any terminal
+2. Type in the following and hit enter:
+	screen /dev/ttyACM0
+3. You may have to replace ACM0 with ACM1 or a higher number and may have to prefix sudo to the command
+
+-----------------------------
+
+Now that the serial program is running hit enter and the prompt i.e. >>> will appear
+
+Type in the following and hit enter:
+
+pyb.LED.toggle(4)
+
+The blue led on the board should toggle its state (if on, goes off and vice versa)
+On most terminals the upward arrow key is a shortcut to go to the last used command. Hit it and pyb.LED.toggle(4) should re-appear. If not just type it out. Hit enter.
+The state of the blue LED on the pyboard (LED 4) toggles its state each time the command is called.
+
+
+FOOTNOTE: added a boot.py that imports pyb and an empty main.py 
+If pyb is not imported it will obviously need to be imported while playing with REPL.
