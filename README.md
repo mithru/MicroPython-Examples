@@ -47,6 +47,18 @@ Pull down button that toggles an LED
 __Potentiometer__  
 Simple analog input that controls an LED's intensity
 
+###03.Pins
+
+_not yet updated - expect update by 19th Aug, 2014_
+
+###04.Accelerometer
+
+__AccelerometerControlLED__  
+Controls blink speed of an LED using the accelerometer's value along the X axis  
+This script also features a custom remap() function that remaps a value to different bounds/range  
+
+__AccelerometerTest__  
+Prints the x,y,z values of the accelerometer every second (REPL required)  
 
 ====================
 
