@@ -34,9 +34,9 @@ __Fade__
 Similar to Arduino's Fade sketch
 
 __Heartbeat__  
-Something more interesting that simple blinks  
+Something more interesting that simple blinks 
 
-__HeartbeatFade__
+__HeartbeatFade__  
 Similar to previous 'Heartbeat' script, but fades the light in and out instead of just switching on and off  
 
 ###02.Inputs
@@ -46,6 +46,12 @@ Pull down button that toggles an LED
 
 __Potentiometer__  
 Simple analog input that controls an LED's intensity
+
+__SwitchObject__  
+Simple demo of the Switch object that can control the inbuilt USR button on the pyboard
+
+__SwitchCallback__  
+Example of the Switch.callback function (uses interrupts)
 
 ###03.Pins
 
