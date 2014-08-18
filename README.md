@@ -55,7 +55,8 @@ Example of the Switch.callback function (uses interrupts)
 
 ###03.Pins
 
-_not yet updated - expect update by 19th Aug, 2014_
+__PinsBasicOutput__  
+Example of using on of the pins to control an output (LED, motor, buzzer, relay, et al)
 
 ###04.Accelerometer
 
