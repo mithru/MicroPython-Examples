@@ -67,6 +67,14 @@ This script also features a custom remap() function that remaps a value to diffe
 __AccelerometerTest__  
 Prints the x,y,z values of the accelerometer every second (REPL required)  
 
+###05.Servos
+
+__ServoSetAngle__  
+Example of setting a servo's angle, and animating it over time
+
+__ServoGetAngle__  
+Generates a random number roughly between -90 and 90, and sets it as the servo's angle. The servo's angle is then obtained from the object
+
 ====================
 
 Contributions include code from:  
