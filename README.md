@@ -19,6 +19,8 @@ All examples could be tested on the board without having to manually upload ever
 __RunForever__  
 A simple while True loop that mimicks Arduino's loop() at a very simple level
 
+====================
+  
 ###01.LEDs
 
 __Blink__  
@@ -39,6 +41,8 @@ Something more interesting that simple blinks
 __HeartbeatFade__  
 Similar to previous 'Heartbeat' script, but fades the light in and out instead of just switching on and off  
 
+====================
+
 ###02.Inputs
 
 __SimpleButton__  
@@ -53,10 +57,14 @@ Simple demo of the Switch object that can control the inbuilt USR button on the 
 __SwitchCallback__  
 Example of the Switch.callback function (uses interrupts)
 
+====================
+
 ###03.Pins
 
 __PinsBasicOutput__  
 Example of using on of the pins to control an output (LED, motor, buzzer, relay, et al)
+
+====================
 
 ###04.Accelerometer
 
@@ -66,6 +74,8 @@ This script also features a custom remap() function that remaps a value to diffe
 
 __AccelerometerTest__  
 Prints the x,y,z values of the accelerometer every second (REPL required)  
+
+====================
 
 ###05.Servos
 
