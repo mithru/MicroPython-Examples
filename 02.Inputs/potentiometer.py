@@ -1,3 +1,10 @@
+import pyb
+# using ADC (analog digital converter)
+pot_pin_adc = pyb.ADC(pyb.Pin.board.X1)
+
+led = pyb.LED(4)
+
+
 # led's intensity is controlled by the potentiometer's value
 
 while True:

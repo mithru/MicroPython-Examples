@@ -1,3 +1,6 @@
+import pyb
+led = pyb.LED(4)
+
 tick = 0 # counter variable
 
 while True:

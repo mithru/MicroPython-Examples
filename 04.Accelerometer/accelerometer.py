@@ -1,4 +1,4 @@
-# REPL needed
+import pyb
 
 acc = pyb.Accel()
 while True:

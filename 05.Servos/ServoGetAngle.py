@@ -1,3 +1,5 @@
+import pyb
+
 servo = pyb.Servo(1) # id can be 1-4 (corresponds to pins X1 - X4)
 
 while True:

@@ -1,3 +1,5 @@
+import pyb
+
 # USR button is controlled using a Switch object
 # This is the one closer to the center of the pyboard
 sw = pyb.Switch()
