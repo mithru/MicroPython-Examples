@@ -1,6 +1,11 @@
 MicroPython-Examples
 ====================
 
+
+__NOTE: THIS REPOSITORY HAS RECENTLY BEEN UPDATED AND THE CHANGES HAVEN'T BEEN UPDATED IN THIS FILE YET. __
+
+
+
 This repo features examples for MicroPython similar to Arduino.
 
 ###00.Basics
