@@ -91,6 +91,23 @@ Uses the RTC (independent Real Time Clock) in the pyboard. Prints the time and d
 
 ====================
 
+###07.Mouse
+
+__boot.py__  
+Sets the device as a HID when it boots.
+
+__main.py__
+Control cursor with the pyboard's accelerometer. The USR switch is used as the button. Hold the board such that side with the microUSB port points to the direction you face.
+
+====================
+
+###08.Sensors
+
+__HC-SR04__  
+Prints distance values in cm and inches from two ultrasonic sensors connected to the pyboard. Uses the ultrasonic module available [here](https://github.com/mithru/MicropythonLibs/tree/master/Ultrasonic) and [here](https://github.com/skgsergio/MicropythonLibs/tree/master/Ultrasonic).
+
+====================
+
 Contributions include code from:  
 [Mithru Vigneshwara](https://github.com/mithru/MicroPython-Examples/)  
 [Dave Hylands](https://github.com/dhylands/upy-examples/)
