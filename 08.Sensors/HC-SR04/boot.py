@@ -1,3 +1,0 @@
-import pyb
-
-import ultrasonic
