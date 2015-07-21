@@ -1,3 +1,6 @@
+import pyb
+import ultrasonic
+
 # setting pins to accomodate Ultrasonic Sensor (HC-SR04)
 sensor1_trigPin = pyb.Pin.board.X3
 sensor1_echoPin = pyb.Pin.board.X4
