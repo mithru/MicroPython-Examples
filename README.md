@@ -3,7 +3,7 @@ MicroPython-Examples
 
 This repo features examples for MicroPython similar to Arduino.
 
-###00.Basics
+### 00.Basics
 
 __boot.py__  
 Sample boot file which points to 'helloWorld.py' to run after booting. The examples in this repo will not include copies of the boot file. Please edit and include boot.py accordingly. 
@@ -18,7 +18,7 @@ All examples can be tested on the board without having to manually upload every 
 
 ====================
   
-###01.LEDs
+### 01.LEDs
 
 __blink__  
 Replicates Arduino's Blink sketch exactly (uses .on() and .off() and loops) 
@@ -40,7 +40,7 @@ Similar to previous 'Heartbeat' script, but fades the light in and out instead o
 
 ====================
 
-###02.Inputs
+### 02.Inputs
 
 __button__  
 Pull down button that toggles an LED
@@ -56,7 +56,7 @@ Example of the Switch.callback function (uses interrupts)
 
 ====================
 
-###03.Pins
+### 03.Pins
 
 __PinsBasicOutput__  
 Example of using on of the pins to control an output (LED, motor, buzzer, relay, et al)
@@ -74,7 +74,7 @@ Prints the x,y,z values of the accelerometer every second (REPL required)
 
 ====================
 
-###05.Servos
+### 05.Servos
 
 __ServoSetAngle__  
 Example of setting a servo's angle, and animating it over time
@@ -84,14 +84,14 @@ Generates a random number roughly between -90 and 90, and sets it as the servo's
 
 ====================
 
-###06.Clock
+### 06.Clock
 
 __clock__  
 Uses the RTC (independent Real Time Clock) in the pyboard. Prints the time and date with delay of 100 microseconds. Start time is set with variables.
 
 ====================
 
-###07.Mouse
+### 07.Mouse
 
 __boot.py__  
 Sets the device as a HID when it boots.
@@ -101,7 +101,7 @@ Control cursor with the pyboard's accelerometer. The USR switch is used as the b
 
 ====================
 
-###08.Sensors
+### 08.Sensors
 
 __HC-SR04__  
 Prints distance values in cm and inches from two ultrasonic sensors connected to the pyboard. Uses the ultrasonic module available [here](https://github.com/mithru/MicropythonLibs/tree/master/Ultrasonic) and [here](https://github.com/skgsergio/MicropythonLibs/tree/master/Ultrasonic).
