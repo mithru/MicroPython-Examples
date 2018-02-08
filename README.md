@@ -3,6 +3,15 @@ MicroPython-Examples
 
 This repo features examples for MicroPython similar to Arduino.
 
+### Troubleshooting
+
+__Safe Mode__  
+Hold down USR switch and quickly press and release RST switch. Release USR switch when only the orange LED is lit. The orange LED will flash quickly 4 times and stop. This is safe mode, which ignores boot.py and main.py. It might be helpful if something is running on the pyboard and that's preventing you from changing its contents.
+
+__Factory Reset__  
+Hold down USR switch and quickly press and release RST switch. Release USR switch when both orange and green LEDs are lit. Both those LEDs will flash 4 times and stop. The board will now be factory reset.
+
+
 ### 00.Basics
 
 __boot.py__  
@@ -16,7 +25,7 @@ REPL stands for Read-Eval-Print-Loop.
 Very important and highly useful feature that allows easy debugging and quick learning.  
 All examples can be tested on the board without having to manually upload every time. 
 
-====================
+---
   
 ### 01.LEDs
 
@@ -38,7 +47,7 @@ Something more interesting that simple blinks
 __heartbeatFade__  
 Similar to previous 'Heartbeat' script, but fades the light in and out instead of just switching on and off  
 
-====================
+---
 
 ### 02.Inputs
 
@@ -54,16 +63,16 @@ Simple demo of the Switch object that can control the inbuilt USR button on the 
 __switchCallback__  
 Example of the Switch.callback function (uses interrupts)
 
-====================
+---
 
 ### 03.Pins
 
 __PinsBasicOutput__  
 Example of using on of the pins to control an output (LED, motor, buzzer, relay, et al)
 
-====================
+---
 
-###04.Accelerometer
+### 04.Accelerometer
 
 __accelerometerControlLED__  
 Controls blink speed of an LED using the accelerometer's value along the X axis  
@@ -72,7 +81,7 @@ This script also features a custom remap() function that remaps a value to diffe
 __accelerometer__  
 Prints the x,y,z values of the accelerometer every second (REPL required)  
 
-====================
+---
 
 ### 05.Servos
 
@@ -82,14 +91,14 @@ Example of setting a servo's angle, and animating it over time
 __ServoGetAngle__  
 Generates a random number roughly between -90 and 90, and sets it as the servo's angle. The servo's angle is then obtained from the object
 
-====================
+---
 
 ### 06.Clock
 
 __clock__  
 Uses the RTC (independent Real Time Clock) in the pyboard. Prints the time and date with delay of 100 microseconds. Start time is set with variables.
 
-====================
+---
 
 ### 07.Mouse
 
@@ -99,14 +108,14 @@ Sets the device as a HID when it boots.
 __main.py__
 Control cursor with the pyboard's accelerometer. The USR switch is used as the button. Hold the board such that side with the microUSB port points to the direction you face.
 
-====================
+---
 
 ### 08.Sensors
 
 __HC-SR04__  
 Prints distance values in cm and inches from two ultrasonic sensors connected to the pyboard. Uses the ultrasonic module available [here](https://github.com/mithru/MicropythonLibs/tree/master/Ultrasonic) and [here](https://github.com/skgsergio/MicropythonLibs/tree/master/Ultrasonic).
 
-====================
+---
 
 Contributions include code from:  
 [Mithru Vigneshwara](https://github.com/mithru/MicroPython-Examples/)  
